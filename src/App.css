@@ -21,7 +21,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: red;
 }
 
 .App-link {
@@ -35,4 +35,13 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.btn {
+  cursor: pointer;
+  background-color: black;
+  border: 1px solid red;
+  color: red;
+  padding: 21px;
+  font-size: 20px;
 }
